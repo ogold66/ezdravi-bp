@@ -1,0 +1,1 @@
+ALTER TABLE `medication_logs` ADD `inventory_id` integer NOT NULL REFERENCES inventory(inventory_id);

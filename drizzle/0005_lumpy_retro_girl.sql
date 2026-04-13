@@ -1,0 +1,1 @@
+ALTER TABLE `inventory` ADD `visit_id` integer REFERENCES visits(visit_id);
