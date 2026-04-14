@@ -6,9 +6,9 @@
     "orientation": "portrait",
     "icon": "./assets/images/logo.png",
     "splash": {
-      "image": "./assets/images/logo.png", 
+      "image": "./assets/images/logo.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff" 
+      "backgroundColor": "#ffffff"
     },
     "scheme": "myapp",
     "userInterfaceStyle": "automatic",
@@ -19,7 +19,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.ogold66sorganization.ezdravi"
     },
     "web": {
       "bundler": "metro",
@@ -31,7 +32,7 @@
       [
         "expo-splash-screen",
         {
-          "image": "./assets/images/splash-icon.png",
+          "image": "./assets/images/logo.png",
           "imageWidth": 200,
           "resizeMode": "contain",
           "backgroundColor": "#ffffff"
@@ -45,7 +46,8 @@
         {
           "faceIDPermission": "Aplikace eZdraví potřebuje FaceID pro bezpečné uzamčení tvých osobních zdravotních dat."
         }
-      ]
+      ],
+      "expo-secure-store"
     ],
     "experiments": {
       "typedRoutes": true
